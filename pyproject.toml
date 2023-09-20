@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "contracts-projects-app"
+version = "0.1.0"
+description = ""
+authors = ["KaterinaPy35 <yakushka1308@mail.ru>"]
+readme = "README.md"
+packages = [{include = "contracts_projects_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "3.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
